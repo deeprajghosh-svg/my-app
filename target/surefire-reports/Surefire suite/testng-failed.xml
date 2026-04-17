@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.mycompany.app.EditProfileTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="TC_EP_HAPPY_PATH"/>
+          <include name="setup"/>
+          <include name="setupTest"/>
+          <include name="TC_EP_INCOME_LESS_THAN_EXPENSE"/>
+          <include name="TC_EP_INVALID_CHARS_IN_NAME"/>
+          <include name="TC_EP_SAVE_WITHOUT_CHANGES"/>
+          <include name="TC_EP_EMPTY_EXPENSES"/>
+          <include name="TC_EP_DECIMAL_VALIDATION"/>
+          <include name="screenshotOnFailure"/>
+          <include name="TC_EP_ZERO_EXPENSES"/>
+          <include name="TC_EP_EMPTY_NAME"/>
+          <include name="TC_EP_EMPTY_INCOME"/>
+          <include name="TC_EP_NEGATIVE_INCOME"/>
+          <include name="TC_EP_SHORT_NAME"/>
+        </methods>
+      </class> <!-- com.mycompany.app.EditProfileTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

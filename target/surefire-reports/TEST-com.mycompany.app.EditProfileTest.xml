@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="com.mycompany.app.EditProfileTest" time="22.316" tests="34" errors="0" skipped="33" failures="1">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/wadmin/Desktop/Deeprj Test/Appium automate /my-app/target/test-classes:/home/wadmin/Desktop/Deeprj Test/Appium automate /my-app/target/classes:/home/wadmin/.m2/repository/io/appium/java-client/10.1.0/java-client-10.1.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-api/4.43.0/selenium-api-4.43.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.43.0/selenium-remote-driver-4.43.0.jar:/home/wadmin/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/home/wadmin/.m2/repository/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar:/home/wadmin/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/home/wadmin/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/wadmin/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/home/wadmin/.m2/repository/io/opentelemetry/opentelemetry-api/1.60.1/opentelemetry-api-1.60.1.jar:/home/wadmin/.m2/repository/io/opentelemetry/opentelemetry-context/1.60.1/opentelemetry-context-1.60.1.jar:/home/wadmin/.m2/repository/io/opentelemetry/opentelemetry-common/1.60.1/opentelemetry-common-1.60.1.jar:/home/wadmin/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.60.1/opentelemetry-exporter-logging-1.60.1.jar:/home/wadmin/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.60.1/opentelemetry-sdk-common-1.60.1.jar:/home/wadmin/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.60.1/opentelemetry-sdk-extension-autoconfigure-spi-1.60.1.jar:/home/wadmin/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.60.1/opentelemetry-sdk-extension-autoconfigure-1.60.1.jar:/home/wadmin/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.60.1/opentelemetry-sdk-trace-1.60.1.jar:/home/wadmin/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.60.1/opentelemetry-sdk-1.60.1.jar:/home/wadmin/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.60.1/opentelemetry-sdk-metrics-1.60.1.jar:/home/wadmin/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.60.1/opentelemetry-sdk-logs-1.60.1.jar:/home/wadmin/.m2/repository/net/bytebuddy/byte-buddy/1.18.8-jdk5/byte-buddy-1.18.8-jdk5.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-http/4.43.0/selenium-http-4.43.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-json/4.43.0/selenium-json-4.43.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.43.0/selenium-manager-4.43.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-os/4.43.0/selenium-os-4.43.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-support/4.43.0/selenium-support-4.43.0.jar:/home/wadmin/.m2/repository/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar:/home/wadmin/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/home/wadmin/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/home/wadmin/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-java/4.43.0/selenium-java-4.43.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.43.0/selenium-chrome-driver-4.43.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.43.0/selenium-chromium-driver-4.43.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v145/4.43.0/selenium-devtools-v145-4.43.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v146/4.43.0/selenium-devtools-v146-4.43.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v147/4.43.0/selenium-devtools-v147-4.43.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.43.0/selenium-edge-driver-4.43.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.43.0/selenium-firefox-driver-4.43.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.43.0/selenium-ie-driver-4.43.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.43.0/selenium-safari-driver-4.43.0.jar:/home/wadmin/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/home/wadmin/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/wadmin/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/wadmin/Desktop/Deeprj Test/Appium automate /my-app/target/surefire/surefirebooter-20260417154212690_3.jar /home/wadmin/Desktop/Deeprj Test/Appium automate /my-app/target/surefire 2026-04-17T15-42-12_602-jvmRun1 surefire-20260417154212690_1tmp surefire_0-20260417154212690_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="EditProfileTest"/>
+    <property name="surefire.test.class.path" value="/home/wadmin/Desktop/Deeprj Test/Appium automate /my-app/target/test-classes:/home/wadmin/Desktop/Deeprj Test/Appium automate /my-app/target/classes:/home/wadmin/.m2/repository/io/appium/java-client/10.1.0/java-client-10.1.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-api/4.43.0/selenium-api-4.43.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.43.0/selenium-remote-driver-4.43.0.jar:/home/wadmin/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/home/wadmin/.m2/repository/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar:/home/wadmin/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/home/wadmin/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/wadmin/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/home/wadmin/.m2/repository/io/opentelemetry/opentelemetry-api/1.60.1/opentelemetry-api-1.60.1.jar:/home/wadmin/.m2/repository/io/opentelemetry/opentelemetry-context/1.60.1/opentelemetry-context-1.60.1.jar:/home/wadmin/.m2/repository/io/opentelemetry/opentelemetry-common/1.60.1/opentelemetry-common-1.60.1.jar:/home/wadmin/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.60.1/opentelemetry-exporter-logging-1.60.1.jar:/home/wadmin/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.60.1/opentelemetry-sdk-common-1.60.1.jar:/home/wadmin/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.60.1/opentelemetry-sdk-extension-autoconfigure-spi-1.60.1.jar:/home/wadmin/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.60.1/opentelemetry-sdk-extension-autoconfigure-1.60.1.jar:/home/wadmin/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.60.1/opentelemetry-sdk-trace-1.60.1.jar:/home/wadmin/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.60.1/opentelemetry-sdk-1.60.1.jar:/home/wadmin/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.60.1/opentelemetry-sdk-metrics-1.60.1.jar:/home/wadmin/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.60.1/opentelemetry-sdk-logs-1.60.1.jar:/home/wadmin/.m2/repository/net/bytebuddy/byte-buddy/1.18.8-jdk5/byte-buddy-1.18.8-jdk5.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-http/4.43.0/selenium-http-4.43.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-json/4.43.0/selenium-json-4.43.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.43.0/selenium-manager-4.43.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-os/4.43.0/selenium-os-4.43.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-support/4.43.0/selenium-support-4.43.0.jar:/home/wadmin/.m2/repository/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar:/home/wadmin/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/home/wadmin/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/home/wadmin/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-java/4.43.0/selenium-java-4.43.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.43.0/selenium-chrome-driver-4.43.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.43.0/selenium-chromium-driver-4.43.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v145/4.43.0/selenium-devtools-v145-4.43.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v146/4.43.0/selenium-devtools-v146-4.43.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v147/4.43.0/selenium-devtools-v147-4.43.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.43.0/selenium-edge-driver-4.43.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.43.0/selenium-firefox-driver-4.43.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.43.0/selenium-ie-driver-4.43.0.jar:/home/wadmin/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.43.0/selenium-safari-driver-4.43.0.jar:/home/wadmin/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/home/wadmin/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/wadmin/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/wadmin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="/usr/lib/jvm/java-21-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/wadmin/Desktop/Deeprj Test/Appium automate /my-app"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/home/wadmin/Desktop/Deeprj Test/Appium automate /my-app/target/surefire/surefirebooter-20260417154212690_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.10+7-Ubuntu-124.04"/>
+    <property name="user.name" value="wadmin"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.17.0-20-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/wadmin/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-21"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="21.0.10"/>
+    <property name="user.dir" value="/home/wadmin/Desktop/Deeprj Test/Appium automate /my-app"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="21.0.10+7-Ubuntu-124.04"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="setupTest" classname="com.mycompany.app.EditProfileTest" time="22.173">
+    <failure message="Expected condition failed: waiting for presence of element found by By.xpath: //*[@text=&apos;Edit Profile&apos;]&#10;(tried for 15 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.17.0-20-generic&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {appium:appActivity: .MainActivity, appium:appPackage: satheia.app.ai, appium:appWaitDuration: 60000, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: .MainActivity, appPackage: satheia.app.ai, appWaitDuration: 60000, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: R9ZY20S3CJA, noReset: true, platformName: ANDROID, platformVersion: 16}, appium:deviceApiLevel: 36, appium:deviceManufacturer: samsung, appium:deviceModel: SM-E166P, appium:deviceName: R9ZY20S3CJA, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R9ZY20S3CJA, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 96, appium:takesScreenshot: true, appium:viewportRect: {height: 2244, left: 0, top: 96, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}&#10;Session ID: 745e01d0-7e36-4327-9bb8-eff376b1f2ec" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for presence of element found by By.xpath: //*[@text='Edit Profile']
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-20-generic', java.version: '21.0.10'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: .MainActivity, appium:appPackage: satheia.app.ai, appium:appWaitDuration: 60000, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: .MainActivity, appPackage: satheia.app.ai, appWaitDuration: 60000, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: R9ZY20S3CJA, noReset: true, platformName: ANDROID, platformVersion: 16}, appium:deviceApiLevel: 36, appium:deviceManufacturer: samsung, appium:deviceModel: SM-E166P, appium:deviceName: R9ZY20S3CJA, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R9ZY20S3CJA, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 96, appium:takesScreenshot: true, appium:viewportRect: {height: 2244, left: 0, top: 96, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 745e01d0-7e36-4327-9bb8-eff376b1f2ec
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.mycompany.app.EditProfilePage.isEditProfileScreenDisplayed(EditProfilePage.java:34)
+	at com.mycompany.app.EditProfileTest.setupTest(EditProfileTest.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[[INFO] Connecting to Appium at: http://127.0.0.1:4723
+[INFO] Session established successfully.
+[INFO] Checking if session is already active...
+[INFO] Home Screen detected (Hello/Life Admin found). Skipping Login.
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="setupTest" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setupTest" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setupTest" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setupTest" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setupTest" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setupTest" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setupTest" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setupTest" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setupTest" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="setupTest" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_EP_DECIMAL_VALIDATION" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped message="Expected condition failed: waiting for presence of element found by By.xpath: //*[@text=&apos;Edit Profile&apos;]&#10;(tried for 15 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.17.0-20-generic&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {appium:appActivity: .MainActivity, appium:appPackage: satheia.app.ai, appium:appWaitDuration: 60000, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: .MainActivity, appPackage: satheia.app.ai, appWaitDuration: 60000, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: R9ZY20S3CJA, noReset: true, platformName: ANDROID, platformVersion: 16}, appium:deviceApiLevel: 36, appium:deviceManufacturer: samsung, appium:deviceModel: SM-E166P, appium:deviceName: R9ZY20S3CJA, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R9ZY20S3CJA, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 96, appium:takesScreenshot: true, appium:viewportRect: {height: 2244, left: 0, top: 96, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}&#10;Session ID: 745e01d0-7e36-4327-9bb8-eff376b1f2ec"/>
+  </testcase>
+  <testcase name="screenshotOnFailure" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="screenshotOnFailure" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="screenshotOnFailure" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="screenshotOnFailure" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="screenshotOnFailure" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="screenshotOnFailure" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="screenshotOnFailure" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="screenshotOnFailure" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="screenshotOnFailure" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="screenshotOnFailure" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="screenshotOnFailure" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="TC_EP_EMPTY_EXPENSES" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped message="Expected condition failed: waiting for presence of element found by By.xpath: //*[@text=&apos;Edit Profile&apos;]&#10;(tried for 15 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.17.0-20-generic&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {appium:appActivity: .MainActivity, appium:appPackage: satheia.app.ai, appium:appWaitDuration: 60000, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: .MainActivity, appPackage: satheia.app.ai, appWaitDuration: 60000, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: R9ZY20S3CJA, noReset: true, platformName: ANDROID, platformVersion: 16}, appium:deviceApiLevel: 36, appium:deviceManufacturer: samsung, appium:deviceModel: SM-E166P, appium:deviceName: R9ZY20S3CJA, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R9ZY20S3CJA, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 96, appium:takesScreenshot: true, appium:viewportRect: {height: 2244, left: 0, top: 96, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}&#10;Session ID: 745e01d0-7e36-4327-9bb8-eff376b1f2ec"/>
+  </testcase>
+  <testcase name="TC_EP_EMPTY_INCOME" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped message="Expected condition failed: waiting for presence of element found by By.xpath: //*[@text=&apos;Edit Profile&apos;]&#10;(tried for 15 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.17.0-20-generic&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {appium:appActivity: .MainActivity, appium:appPackage: satheia.app.ai, appium:appWaitDuration: 60000, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: .MainActivity, appPackage: satheia.app.ai, appWaitDuration: 60000, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: R9ZY20S3CJA, noReset: true, platformName: ANDROID, platformVersion: 16}, appium:deviceApiLevel: 36, appium:deviceManufacturer: samsung, appium:deviceModel: SM-E166P, appium:deviceName: R9ZY20S3CJA, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R9ZY20S3CJA, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 96, appium:takesScreenshot: true, appium:viewportRect: {height: 2244, left: 0, top: 96, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}&#10;Session ID: 745e01d0-7e36-4327-9bb8-eff376b1f2ec"/>
+  </testcase>
+  <testcase name="TC_EP_EMPTY_NAME" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped message="Expected condition failed: waiting for presence of element found by By.xpath: //*[@text=&apos;Edit Profile&apos;]&#10;(tried for 15 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.17.0-20-generic&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {appium:appActivity: .MainActivity, appium:appPackage: satheia.app.ai, appium:appWaitDuration: 60000, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: .MainActivity, appPackage: satheia.app.ai, appWaitDuration: 60000, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: R9ZY20S3CJA, noReset: true, platformName: ANDROID, platformVersion: 16}, appium:deviceApiLevel: 36, appium:deviceManufacturer: samsung, appium:deviceModel: SM-E166P, appium:deviceName: R9ZY20S3CJA, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R9ZY20S3CJA, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 96, appium:takesScreenshot: true, appium:viewportRect: {height: 2244, left: 0, top: 96, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}&#10;Session ID: 745e01d0-7e36-4327-9bb8-eff376b1f2ec"/>
+  </testcase>
+  <testcase name="TC_EP_HAPPY_PATH" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped message="Expected condition failed: waiting for presence of element found by By.xpath: //*[@text=&apos;Edit Profile&apos;]&#10;(tried for 15 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.17.0-20-generic&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {appium:appActivity: .MainActivity, appium:appPackage: satheia.app.ai, appium:appWaitDuration: 60000, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: .MainActivity, appPackage: satheia.app.ai, appWaitDuration: 60000, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: R9ZY20S3CJA, noReset: true, platformName: ANDROID, platformVersion: 16}, appium:deviceApiLevel: 36, appium:deviceManufacturer: samsung, appium:deviceModel: SM-E166P, appium:deviceName: R9ZY20S3CJA, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R9ZY20S3CJA, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 96, appium:takesScreenshot: true, appium:viewportRect: {height: 2244, left: 0, top: 96, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}&#10;Session ID: 745e01d0-7e36-4327-9bb8-eff376b1f2ec"/>
+  </testcase>
+  <testcase name="TC_EP_INCOME_LESS_THAN_EXPENSE" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped message="Expected condition failed: waiting for presence of element found by By.xpath: //*[@text=&apos;Edit Profile&apos;]&#10;(tried for 15 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.17.0-20-generic&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {appium:appActivity: .MainActivity, appium:appPackage: satheia.app.ai, appium:appWaitDuration: 60000, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: .MainActivity, appPackage: satheia.app.ai, appWaitDuration: 60000, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: R9ZY20S3CJA, noReset: true, platformName: ANDROID, platformVersion: 16}, appium:deviceApiLevel: 36, appium:deviceManufacturer: samsung, appium:deviceModel: SM-E166P, appium:deviceName: R9ZY20S3CJA, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R9ZY20S3CJA, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 96, appium:takesScreenshot: true, appium:viewportRect: {height: 2244, left: 0, top: 96, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}&#10;Session ID: 745e01d0-7e36-4327-9bb8-eff376b1f2ec"/>
+  </testcase>
+  <testcase name="TC_EP_INVALID_CHARS_IN_NAME" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped message="Expected condition failed: waiting for presence of element found by By.xpath: //*[@text=&apos;Edit Profile&apos;]&#10;(tried for 15 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.17.0-20-generic&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {appium:appActivity: .MainActivity, appium:appPackage: satheia.app.ai, appium:appWaitDuration: 60000, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: .MainActivity, appPackage: satheia.app.ai, appWaitDuration: 60000, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: R9ZY20S3CJA, noReset: true, platformName: ANDROID, platformVersion: 16}, appium:deviceApiLevel: 36, appium:deviceManufacturer: samsung, appium:deviceModel: SM-E166P, appium:deviceName: R9ZY20S3CJA, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R9ZY20S3CJA, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 96, appium:takesScreenshot: true, appium:viewportRect: {height: 2244, left: 0, top: 96, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}&#10;Session ID: 745e01d0-7e36-4327-9bb8-eff376b1f2ec"/>
+  </testcase>
+  <testcase name="TC_EP_NEGATIVE_INCOME" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped message="Expected condition failed: waiting for presence of element found by By.xpath: //*[@text=&apos;Edit Profile&apos;]&#10;(tried for 15 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.17.0-20-generic&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {appium:appActivity: .MainActivity, appium:appPackage: satheia.app.ai, appium:appWaitDuration: 60000, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: .MainActivity, appPackage: satheia.app.ai, appWaitDuration: 60000, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: R9ZY20S3CJA, noReset: true, platformName: ANDROID, platformVersion: 16}, appium:deviceApiLevel: 36, appium:deviceManufacturer: samsung, appium:deviceModel: SM-E166P, appium:deviceName: R9ZY20S3CJA, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R9ZY20S3CJA, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 96, appium:takesScreenshot: true, appium:viewportRect: {height: 2244, left: 0, top: 96, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}&#10;Session ID: 745e01d0-7e36-4327-9bb8-eff376b1f2ec"/>
+  </testcase>
+  <testcase name="TC_EP_SAVE_WITHOUT_CHANGES" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped message="Expected condition failed: waiting for presence of element found by By.xpath: //*[@text=&apos;Edit Profile&apos;]&#10;(tried for 15 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.17.0-20-generic&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {appium:appActivity: .MainActivity, appium:appPackage: satheia.app.ai, appium:appWaitDuration: 60000, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: .MainActivity, appPackage: satheia.app.ai, appWaitDuration: 60000, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: R9ZY20S3CJA, noReset: true, platformName: ANDROID, platformVersion: 16}, appium:deviceApiLevel: 36, appium:deviceManufacturer: samsung, appium:deviceModel: SM-E166P, appium:deviceName: R9ZY20S3CJA, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R9ZY20S3CJA, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 96, appium:takesScreenshot: true, appium:viewportRect: {height: 2244, left: 0, top: 96, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}&#10;Session ID: 745e01d0-7e36-4327-9bb8-eff376b1f2ec"/>
+  </testcase>
+  <testcase name="TC_EP_SHORT_NAME" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped message="Expected condition failed: waiting for presence of element found by By.xpath: //*[@text=&apos;Edit Profile&apos;]&#10;(tried for 15 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.17.0-20-generic&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {appium:appActivity: .MainActivity, appium:appPackage: satheia.app.ai, appium:appWaitDuration: 60000, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: .MainActivity, appPackage: satheia.app.ai, appWaitDuration: 60000, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: R9ZY20S3CJA, noReset: true, platformName: ANDROID, platformVersion: 16}, appium:deviceApiLevel: 36, appium:deviceManufacturer: samsung, appium:deviceModel: SM-E166P, appium:deviceName: R9ZY20S3CJA, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R9ZY20S3CJA, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 96, appium:takesScreenshot: true, appium:viewportRect: {height: 2244, left: 0, top: 96, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}&#10;Session ID: 745e01d0-7e36-4327-9bb8-eff376b1f2ec"/>
+  </testcase>
+  <testcase name="TC_EP_ZERO_EXPENSES" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped message="Expected condition failed: waiting for presence of element found by By.xpath: //*[@text=&apos;Edit Profile&apos;]&#10;(tried for 15 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.17.0-20-generic&apos;, java.version: &apos;21.0.10&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {appium:appActivity: .MainActivity, appium:appPackage: satheia.app.ai, appium:appWaitDuration: 60000, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: .MainActivity, appPackage: satheia.app.ai, appWaitDuration: 60000, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: R9ZY20S3CJA, noReset: true, platformName: ANDROID, platformVersion: 16}, appium:deviceApiLevel: 36, appium:deviceManufacturer: samsung, appium:deviceModel: SM-E166P, appium:deviceName: R9ZY20S3CJA, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: R9ZY20S3CJA, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 96, appium:takesScreenshot: true, appium:viewportRect: {height: 2244, left: 0, top: 96, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}&#10;Session ID: 745e01d0-7e36-4327-9bb8-eff376b1f2ec"/>
+  </testcase>
+  <testcase name="teardown" classname="com.mycompany.app.EditProfileTest" time="0.0">
+    <skipped/>
+  </testcase>
+</testsuite>
