@@ -55,3 +55,4 @@ mvn test
 - **Explicit Waits**: Used `WebDriverWait` instead of hard coded sleeps where possible.
 - **Helper Methods**: Complex gestures (scrolling, clicking icons) are encapsulated in reusable methods.
 - **Resilient Locators**: Using contains logic to handle dynamic content descriptions.
+# mobile-automation-adb
